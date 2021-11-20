@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+    let guessed = 0;
+    let firstAnswer = prompt('Не огонь, А жжется.');
+    if (firstAnswer == 'Крапива') {
+        alert('Верно!');
+        guessed++;
+    } else {
+        alert('Не верно!');
+    }
+    let secondAnswer = prompt('Красна девица, Сидит в темнице, А коса на улице.');
+    if (secondAnswer == 'Морковка') {
+        alert('Верно!');
+        guessed++;
+    } else {
+        alert('Не верно!');
+    }
+    alert('Вы отгадали: ' + guessed)
+</script>
